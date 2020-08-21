@@ -1,0 +1,46 @@
+.effect-i {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(165, 37, 37)
+  }
+  
+  .effect-i .buttons {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .effect-i a {
+    text-decoration: none !important;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .effect-i a.insta {
+    background-color: #bc2a8d;
+  }
+  
+  /* aeneas effect */
+  .effect-i.aeneas a {
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+  }
+  .effect-i.aeneas a i {
+    transition: transform 0.4s linear 0s;
+  }
+  .effect-i.aeneas a:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+  .effect-i.aeneas a:hover i {
+    transform: rotate(-360deg);
+  }
+ 
+  
